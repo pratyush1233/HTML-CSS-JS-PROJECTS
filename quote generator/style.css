@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.container {
+  background-color: rgb(240, 98, 146);
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.quote {
+  font-size: 24px;
+  color: rgb(76, 175, 80);
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.author {
+  font-size: 18px;
+  float: right;
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(76, 175, 80);
+}
+
+#new-quote {
+  background-color: rgb(240, 98, 146);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+.quote-icons i {
+  font-size: 24px;
+  color: rgb(76, 175, 80);
+}

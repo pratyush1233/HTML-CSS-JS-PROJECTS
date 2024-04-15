@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Card Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1 class="main-title">Student Card Generator</h1>
+  <div class="container">
+    <div class="form-container">
+      <h2 class="form-title">Enter Student Details</h2>
+      <form id="id-card-form" class="form">
+        <div class="input-group">
+          <label for="name">Name:</label>
+          <div class="field"><i class="fas fa-user-circle"></i><input type="text" id="name" required></div>
+        </div>
+        <div class="input-group">
+          <label for="college-name">College Name:</label>
+          <div class="field"><i class="fas fa-university"></i><input type="text" id="college-name" required></div>
+        </div>
+        <div class="input-group">
+          <label for="location-id">Location:</label>
+          <div class="field"><i class="fas fa-map-marker-alt"></i><input type="text" id="location-id" required></div>
+        </div>
+        <div class="input-group">
+          <label for="photo">Student Picture:</label>
+          <div class="photo"><input type="file" id="photo" accept="image/*" required></div>
+        </div>
+        <div class="button-container">
+          <button type="button" onclick="generateCard()">Generate Card</button>
+        </div>
+      </form>
+    </div>
+    <div class="card-container">
+      <h2 class="card-title">Student ID Card</h2>
+      <div class="card" id="id-card">
+        <div class="photo-container"><img id="photo-preview" alt="Please Input Image"></div>
+        <div class="card-details">
+          <p id="name-preview" class="card-data"><i class="fas fa-user"></i> Name</p>
+          <p id="college-name-preview" class="card-data"><i class="fas fa-university"></i> College Name</p>
+          <p id="location-id-preview" class="card-data"><i class="fas fa-map-marker-alt"></i> Location</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

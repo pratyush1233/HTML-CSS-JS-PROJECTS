@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.main-title {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: red;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  height: 100vh;
+}
+
+.form-container {
+  width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 2px solid red;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.form-title {
+  color: red;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.form {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 20px;
+}
+
+.field {
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  padding: 2px 5px;
+  width: 240px;
+  border-radius: 5px;
+}
+
+.field input {
+  outline: none;
+  border: none;
+}
+
+.card-container {
+  width: 500px;
+  margin-left: 100px;
+  border-radius: 18px;
+}
+
+.card-title {
+  color: red;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 16px;
+  gap: 8px;
+  text-align: left;
+}
+
+.card-data {
+  font-weight: bold;
+  color: #000000;
+  margin-top: 8px;
+}
+
+.card {
+  display: flex;
+  height: 200px;
+  width: 70%;
+  color: white;
+  border-radius: 5px;
+  background: linear-gradient(2deg, rgba(2, 0, 36, 1) 0%, rgb(255, 0, 0) 35%, rgb(240, 82, 82) 100%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.photo-container {
+  background: linear-gradient(2deg, rgba(2, 0, 36, 1) 0%, rgb(255, 0, 0) 35%, rgb(240, 82, 82) 100%);
+  padding: 24px 16px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 120px;
+  height: 140px;
+  border-radius: 10%;
+  margin-bottom: 8px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.button-container button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
